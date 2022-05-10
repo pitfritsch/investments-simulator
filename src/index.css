@@ -11,6 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
   color: var(--white);
+  background: linear-gradient(45deg, #11151e, #282c34);
+  min-height: 100vh;
 }
 
 code {
@@ -29,4 +31,22 @@ input {
   color: var(--white);
   border: 1px solid var(--white);
   border-radius: 5px;
+}
+
+thead {
+  background-color: rgba(130, 130, 211, 0.096);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+thead th {
+  padding: 20px;
+}
+
+
+tbody {
+  background-color: rgba(198, 198, 211, 0.096);
+}
+tbody td {
+  padding: 5px;
+  text-align: center;
 }
