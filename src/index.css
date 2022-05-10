@@ -1,0 +1,32 @@
+:root {
+  --white: #ebf0f5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: var(--white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+input {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 10px;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+}
